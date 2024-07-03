@@ -41,7 +41,7 @@ const Navbar = () => {
                       className=" hover:text-[#D2000D] text-[16px] hover:font-semibold  duration-300 font-medium"
                       onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                      Home
+                      HOME
                     </Link>
                   </li>
                   <li>
@@ -50,7 +50,7 @@ const Navbar = () => {
                       className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                       onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                      About
+                      ABOUT
                     </Link>
                   </li>
                   <li>
@@ -59,7 +59,7 @@ const Navbar = () => {
                       className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                       onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                      Classes
+                      CLASSES
                     </Link>
                   </li>
                   <li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                       className=" hover:text-[#D2000D] text-[16px] hover:font-semibold  duration-300"
                       onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                      Team
+                      TEAM
                     </Link>
                   </li>
                   <li>
@@ -77,7 +77,7 @@ const Navbar = () => {
                       className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                       onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                      Price
+                      PRICE
                     </Link>
                   </li>
                   <li>
@@ -86,7 +86,7 @@ const Navbar = () => {
                       className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                       onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                      Review
+                      REVIEW
                     </Link>
                   </li>
                   <li>
@@ -95,7 +95,7 @@ const Navbar = () => {
                       className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                       onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                      Blog
+                      BLOG
                     </Link>
                   </li>
                   <li>
@@ -104,7 +104,7 @@ const Navbar = () => {
                       className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                       onClick={() => setIsMenuOpen(!isMenuOpen)}
                     >
-                      Contact
+                      CONTACT
                     </Link>
                   </li>
                 </ul>
@@ -120,7 +120,7 @@ const Navbar = () => {
                   href={"/"}
                   className=" hover:text-[#D2000D] text-[16px] hover:font-semibold  duration-300 font-medium"
                 >
-                  Home
+                  HOME
                 </Link>
               </li>
               <li>
@@ -128,7 +128,7 @@ const Navbar = () => {
                   href={"/about"}
                   className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                 >
-                  About
+                  ABOUT
                 </Link>
               </li>
               <li>
@@ -136,7 +136,7 @@ const Navbar = () => {
                   href={"/classes"}
                   className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                 >
-                  Classes
+                  CLASSES
                 </Link>
               </li>
               <li>
@@ -144,7 +144,7 @@ const Navbar = () => {
                   href={"/team"}
                   className=" hover:text-[#D2000D] text-[16px] hover:font-semibold  duration-300"
                 >
-                  Team
+                  TEAM
                 </Link>
               </li>
               <li>
@@ -152,7 +152,7 @@ const Navbar = () => {
                   href={"/price"}
                   className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                 >
-                  Price
+                  PRICE
                 </Link>
               </li>
               <li>
@@ -160,7 +160,7 @@ const Navbar = () => {
                   href={"/testimonial"}
                   className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                 >
-                  Review
+                  REVIEW
                 </Link>
               </li>
               <li>
@@ -168,7 +168,7 @@ const Navbar = () => {
                   href={"/blog"}
                   className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                 >
-                  Blog
+                  BLOG
                 </Link>
               </li>
               <li>
@@ -176,7 +176,7 @@ const Navbar = () => {
                   href={"/contact"}
                   className=" hover:text-[#D2000D] text-[16px] hover:font-semibold font-medium duration-300"
                 >
-                  Contact
+                  CONTACT
                 </Link>
               </li>
             </ul>
@@ -184,7 +184,7 @@ const Navbar = () => {
         </div>
 
         {/* div 3 */}
-        <div className="order-1 md:order-2 sm:flex sm:justify-end">user login</div>
+        <div className="order-1 md:order-2 sm:flex sm:justify-end">USER LOGIN</div>
       </div>
     </nav>
   );
