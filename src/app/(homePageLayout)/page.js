@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 const HomePage = () => {
-  return <main>
-    <p>this is home page</p>
-  </main>;
+  return <div className="w-full h-screen bg-black">
+
+  </div>
 };
 
 export default HomePage;
